@@ -46,7 +46,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-all-clear/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -79,7 +79,7 @@ Checking for git executable in PATH
 /path/to/git
 Checking for global bin folder in PATH
 [32mOk[39m
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-all-clear-in-color/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 [32mOk[39m
 Checking permissions on local node_modules (this may take awhile)
@@ -163,7 +163,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-bad-proxy/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -196,7 +196,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-cacache-badContent/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -283,7 +283,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-cacache-missingContent/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -316,7 +316,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-cacache-reclaimedCount/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -420,7 +420,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Not ok
-Error: Add {CWD}/.tap/fixtures/test-lib-commands-doctor.js-discrete-checks-invalid-environment/global/bin to your $PATH
+Error: Add {CWD}/global/bin to your $PATH
 `
 
 exports[`test/lib/commands/doctor.js > TAP > discrete checks > permissions - not windows > logs 1`] = `
@@ -539,11 +539,11 @@ Object {
     ),
   ],
   "warn": Array [
-    "doctor checkFilesPermission error reading directory {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/cache",
-    "doctor checkFilesPermission error reading directory {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/prefix/node_modules",
-    "doctor checkFilesPermission error reading directory {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/global/node_modules",
-    "doctor checkFilesPermission error reading directory {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/prefix/node_modules/.bin",
-    "doctor checkFilesPermission error reading directory {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/global/bin",
+    "doctor checkFilesPermission error reading directory {CWD}/cache",
+    "doctor checkFilesPermission error reading directory {CWD}/prefix/node_modules",
+    "doctor checkFilesPermission error reading directory {CWD}/global/node_modules",
+    "doctor checkFilesPermission error reading directory {CWD}/prefix/node_modules/.bin",
+    "doctor checkFilesPermission error reading directory {CWD}/global/bin",
   ],
 }
 `
@@ -565,22 +565,22 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/cache (should be owned by current user)
+Check the permissions of files in {CWD}/cache (should be owned by current user)
 Checking permissions on local node_modules (this may take awhile)
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/prefix/node_modules (should be owned by current user)
+Check the permissions of files in {CWD}/prefix/node_modules (should be owned by current user)
 Checking permissions on global node_modules (this may take awhile)
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/global/node_modules
+Check the permissions of files in {CWD}/global/node_modules
 Checking permissions on local bin folder
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/prefix/node_modules/.bin
+Check the permissions of files in {CWD}/prefix/node_modules/.bin
 Checking permissions on global bin folder
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-error-reading-directory/global/bin
+Check the permissions of files in {CWD}/global/bin
 Verifying cache contents (this may take awhile)
 Ok
 verified 0 tarballs
@@ -603,10 +603,10 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-owner/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-owner/cache (should be owned by current user)
+Check the permissions of files in {CWD}/cache (should be owned by current user)
 Checking permissions on local node_modules (this may take awhile)
 Ok
 Checking permissions on global node_modules (this may take awhile)
@@ -643,7 +643,7 @@ Object {
     ),
   ],
   "warn": Array [
-    "doctor checkFilesPermission should be owner of {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-owner/cache/_cacache",
+    "doctor checkFilesPermission should be owner of {CWD}/cache/_cacache",
   ],
 }
 `
@@ -665,22 +665,22 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/cache (should be owned by current user)
+Check the permissions of files in {CWD}/cache (should be owned by current user)
 Checking permissions on local node_modules (this may take awhile)
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/prefix/node_modules (should be owned by current user)
+Check the permissions of files in {CWD}/prefix/node_modules (should be owned by current user)
 Checking permissions on global node_modules (this may take awhile)
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/global/node_modules
+Check the permissions of files in {CWD}/global/node_modules
 Checking permissions on local bin folder
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/prefix/node_modules/.bin
+Check the permissions of files in {CWD}/prefix/node_modules/.bin
 Checking permissions on global bin folder
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/global/bin
+Check the permissions of files in {CWD}/global/bin
 Verifying cache contents (this may take awhile)
 Ok
 verified 0 tarballs
@@ -689,11 +689,11 @@ verified 0 tarballs
 exports[`test/lib/commands/doctor.js > TAP > incorrect permissions > logs 1`] = `
 Object {
   "error": Array [
-    "doctor checkFilesPermission Missing permissions on {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/cache (expect: readable)",
-    "doctor checkFilesPermission Missing permissions on {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/prefix/node_modules (expect: readable, writable)",
-    "doctor checkFilesPermission Missing permissions on {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/global/node_modules (expect: readable)",
-    "doctor checkFilesPermission Missing permissions on {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/prefix/node_modules/.bin (expect: readable, writable, executable)",
-    "doctor checkFilesPermission Missing permissions on {CWD}/.tap/fixtures/test-lib-commands-doctor.js-incorrect-permissions/global/bin (expect: executable)",
+    "doctor checkFilesPermission Missing permissions on {CWD}/cache (expect: readable)",
+    "doctor checkFilesPermission Missing permissions on {CWD}/prefix/node_modules (expect: readable, writable)",
+    "doctor checkFilesPermission Missing permissions on {CWD}/global/node_modules (expect: readable)",
+    "doctor checkFilesPermission Missing permissions on {CWD}/prefix/node_modules/.bin (expect: readable, writable, executable)",
+    "doctor checkFilesPermission Missing permissions on {CWD}/global/bin (expect: executable)",
     "Some problems found. See above for recommendations.",
   ],
   "info": Array [
@@ -764,7 +764,7 @@ Not ok
 Error: Install git and ensure it's in your PATH.
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-missing-git/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -803,8 +803,8 @@ Object {
     ),
   ],
   "warn": Array [
-    "doctor checkFilesPermission error getting info for {CWD}/.tap/fixtures/test-lib-commands-doctor.js-missing-global-directories/global/node_modules",
-    "doctor checkFilesPermission error getting info for {CWD}/.tap/fixtures/test-lib-commands-doctor.js-missing-global-directories/global/bin",
+    "doctor checkFilesPermission error getting info for {CWD}/global/node_modules",
+    "doctor checkFilesPermission error getting info for {CWD}/global/bin",
   ],
 }
 `
@@ -826,19 +826,19 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-missing-global-directories/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
 Ok
 Checking permissions on global node_modules (this may take awhile)
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-missing-global-directories/global/node_modules
+Check the permissions of files in {CWD}/global/node_modules
 Checking permissions on local bin folder
 Ok
 Checking permissions on global bin folder
 Not ok
-Check the permissions of files in {CWD}/.tap/fixtures/test-lib-commands-doctor.js-missing-global-directories/global/bin
+Check the permissions of files in {CWD}/global/bin
 Verifying cache contents (this may take awhile)
 Ok
 verified 0 tarballs
@@ -885,7 +885,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-missing-local-node_modules/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -944,7 +944,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-node-out-of-date---current/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -1003,7 +1003,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-node-out-of-date---lts/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -1062,7 +1062,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-non-default-registry/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -1121,7 +1121,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-npm-out-of-date/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -1181,7 +1181,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-ping-404/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -1241,7 +1241,7 @@ Checking for git executable in PATH
 /path/to/git
 Checking for global bin folder in PATH
 [32mOk[39m
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-ping-404-in-color/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 [32mOk[39m
 Checking permissions on local node_modules (this may take awhile)
@@ -1301,7 +1301,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-ping-exception-with-code/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -1361,7 +1361,7 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-ping-exception-without-code/global/bin
+{CWD}/global/bin
 Checking permissions on cached files (this may take awhile)
 Ok
 Checking permissions on local node_modules (this may take awhile)
@@ -1433,5 +1433,5 @@ Ok
 /path/to/git
 Checking for global bin folder in PATH
 Ok
-{CWD}/.tap/fixtures/test-lib-commands-doctor.js-windows-skips-permissions-checks/global
+{CWD}/global
 `

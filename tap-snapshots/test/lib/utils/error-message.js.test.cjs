@@ -414,7 +414,7 @@ Object {
       "",
       Error: whoopsie {
         "code": "EACCES",
-        "dest": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-false-cachePath-false-cacheDest-true-/cache/dest",
+        "dest": "{CWD}/cache/dest",
         "path": "/not/cache/dir/path",
       },
     ],
@@ -448,7 +448,7 @@ Object {
       Error: whoopsie {
         "code": "EACCES",
         "dest": "/not/cache/dir/dest",
-        "path": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-false-cachePath-true-cacheDest-false-/cache/path",
+        "path": "{CWD}/cache/path",
       },
     ],
   ],
@@ -480,8 +480,8 @@ Object {
       "",
       Error: whoopsie {
         "code": "EACCES",
-        "dest": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-false-cachePath-true-cacheDest-true-/cache/dest",
-        "path": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-false-cachePath-true-cacheDest-true-/cache/path",
+        "dest": "{CWD}/cache/dest",
+        "path": "{CWD}/cache/path",
       },
     ],
   ],
@@ -524,9 +524,9 @@ Object {
 exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
 Array [
   "title npm",
-  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-false-cacheDest-false-/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
-  "logfile logs-max:10 dir:{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-false-cacheDest-false-/cache/_logs/{DATE}-",
-  "logfile {CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-false-cacheDest-false-/cache/_logs/{DATE}-debug-0.log",
+  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
+  "logfile logs-max:10 dir:{CWD}/cache/_logs/{DATE}-",
+  "logfile {CWD}/cache/_logs/{DATE}-debug-0.log",
 ]
 `
 
@@ -542,7 +542,7 @@ Object {
         previous versions of npm which has since been addressed.
         
         To permanently fix this problem, please run:
-          sudo chown -R 867:5309 "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-false-cacheDest-true-/cache"
+          sudo chown -R 867:5309 "{CWD}/cache"
       ),
     ],
   ],
@@ -552,9 +552,9 @@ Object {
 exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
 Array [
   "title npm",
-  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-false-cacheDest-true-/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
-  "logfile logs-max:10 dir:{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-false-cacheDest-true-/cache/_logs/{DATE}-",
-  "logfile {CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-false-cacheDest-true-/cache/_logs/{DATE}-debug-0.log",
+  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
+  "logfile logs-max:10 dir:{CWD}/cache/_logs/{DATE}-",
+  "logfile {CWD}/cache/_logs/{DATE}-debug-0.log",
   "dummy stack trace",
 ]
 `
@@ -571,7 +571,7 @@ Object {
         previous versions of npm which has since been addressed.
         
         To permanently fix this problem, please run:
-          sudo chown -R 867:5309 "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-true-cacheDest-false-/cache"
+          sudo chown -R 867:5309 "{CWD}/cache"
       ),
     ],
   ],
@@ -581,9 +581,9 @@ Object {
 exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
 Array [
   "title npm",
-  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-true-cacheDest-false-/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
-  "logfile logs-max:10 dir:{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-true-cacheDest-false-/cache/_logs/{DATE}-",
-  "logfile {CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-true-cacheDest-false-/cache/_logs/{DATE}-debug-0.log",
+  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
+  "logfile logs-max:10 dir:{CWD}/cache/_logs/{DATE}-",
+  "logfile {CWD}/cache/_logs/{DATE}-debug-0.log",
   "dummy stack trace",
 ]
 `
@@ -600,7 +600,7 @@ Object {
         previous versions of npm which has since been addressed.
         
         To permanently fix this problem, please run:
-          sudo chown -R 867:5309 "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-true-cacheDest-true-/cache"
+          sudo chown -R 867:5309 "{CWD}/cache"
       ),
     ],
   ],
@@ -610,9 +610,9 @@ Object {
 exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":false,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
 Array [
   "title npm",
-  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-true-cacheDest-true-/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
-  "logfile logs-max:10 dir:{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-true-cacheDest-true-/cache/_logs/{DATE}-",
-  "logfile {CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-false-loaded-true-cachePath-true-cacheDest-true-/cache/_logs/{DATE}-debug-0.log",
+  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
+  "logfile logs-max:10 dir:{CWD}/cache/_logs/{DATE}-",
+  "logfile {CWD}/cache/_logs/{DATE}-debug-0.log",
   "dummy stack trace",
 ]
 `
@@ -673,7 +673,7 @@ Object {
       "",
       Error: whoopsie {
         "code": "EACCES",
-        "dest": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-false-cachePath-false-cacheDest-true-/cache/dest",
+        "dest": "{CWD}/cache/dest",
         "path": "/not/cache/dir/path",
       },
     ],
@@ -708,7 +708,7 @@ Object {
       Error: whoopsie {
         "code": "EACCES",
         "dest": "/not/cache/dir/dest",
-        "path": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-false-cachePath-true-cacheDest-false-/cache/path",
+        "path": "{CWD}/cache/path",
       },
     ],
   ],
@@ -741,8 +741,8 @@ Object {
       "",
       Error: whoopsie {
         "code": "EACCES",
-        "dest": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-false-cachePath-true-cacheDest-true-/cache/dest",
-        "path": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-false-cachePath-true-cacheDest-true-/cache/path",
+        "dest": "{CWD}/cache/dest",
+        "path": "{CWD}/cache/path",
       },
     ],
   ],
@@ -786,9 +786,9 @@ Object {
 exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":false,"cacheDest":false} > must match snapshot 2`] = `
 Array [
   "title npm",
-  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-false-cacheDest-false-/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
-  "logfile logs-max:10 dir:{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-false-cacheDest-false-/cache/_logs/{DATE}-",
-  "logfile {CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-false-cacheDest-false-/cache/_logs/{DATE}-debug-0.log",
+  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
+  "logfile logs-max:10 dir:{CWD}/cache/_logs/{DATE}-",
+  "logfile {CWD}/cache/_logs/{DATE}-debug-0.log",
 ]
 `
 
@@ -814,7 +814,7 @@ Object {
       "",
       Error: whoopsie {
         "code": "EACCES",
-        "dest": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-false-cacheDest-true-/cache/dest",
+        "dest": "{CWD}/cache/dest",
         "path": "/not/cache/dir/path",
       },
     ],
@@ -825,9 +825,9 @@ Object {
 exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":false,"cacheDest":true} > must match snapshot 2`] = `
 Array [
   "title npm",
-  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-false-cacheDest-true-/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
-  "logfile logs-max:10 dir:{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-false-cacheDest-true-/cache/_logs/{DATE}-",
-  "logfile {CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-false-cacheDest-true-/cache/_logs/{DATE}-debug-0.log",
+  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
+  "logfile logs-max:10 dir:{CWD}/cache/_logs/{DATE}-",
+  "logfile {CWD}/cache/_logs/{DATE}-debug-0.log",
 ]
 `
 
@@ -854,7 +854,7 @@ Object {
       Error: whoopsie {
         "code": "EACCES",
         "dest": "/not/cache/dir/dest",
-        "path": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-false-/cache/path",
+        "path": "{CWD}/cache/path",
       },
     ],
   ],
@@ -864,9 +864,9 @@ Object {
 exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":true,"cacheDest":false} > must match snapshot 2`] = `
 Array [
   "title npm",
-  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-false-/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
-  "logfile logs-max:10 dir:{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-false-/cache/_logs/{DATE}-",
-  "logfile {CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-false-/cache/_logs/{DATE}-debug-0.log",
+  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
+  "logfile logs-max:10 dir:{CWD}/cache/_logs/{DATE}-",
+  "logfile {CWD}/cache/_logs/{DATE}-debug-0.log",
 ]
 `
 
@@ -892,8 +892,8 @@ Object {
       "",
       Error: whoopsie {
         "code": "EACCES",
-        "dest": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-true-/cache/dest",
-        "path": "{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-true-/cache/path",
+        "dest": "{CWD}/cache/dest",
+        "path": "{CWD}/cache/path",
       },
     ],
   ],
@@ -903,9 +903,9 @@ Object {
 exports[`test/lib/utils/error-message.js > TAP > eacces/eperm > {"windows":true,"loaded":true,"cachePath":true,"cacheDest":true} > must match snapshot 2`] = `
 Array [
   "title npm",
-  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-true-/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
-  "logfile logs-max:10 dir:{CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-true-/cache/_logs/{DATE}-",
-  "logfile {CWD}/.tap/fixtures/test-lib-utils-error-message.js-eacces-eperm--windows-true-loaded-true-cachePath-true-cacheDest-true-/cache/_logs/{DATE}-debug-0.log",
+  "argv /"--fetch-retries/" /"0/" /"--cache/" /"{CWD}/cache/" /"--loglevel/" /"silly/" /"--color/" /"false/"",
+  "logfile logs-max:10 dir:{CWD}/cache/_logs/{DATE}-",
+  "logfile {CWD}/cache/_logs/{DATE}-debug-0.log",
 ]
 `
 

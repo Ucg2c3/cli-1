@@ -13,8 +13,8 @@ exports[`test/lib/commands/query.js > TAP > global > should return global packag
     "_id": "lorem@2.0.0",
     "pkgid": "lorem@2.0.0",
     "location": "node_modules/lorem",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-global/global/node_modules/lorem",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-global/global/node_modules/lorem",
+    "path": "{CWD}/global/node_modules/lorem",
+    "realpath": "{CWD}/global/node_modules/lorem",
     "resolved": null,
     "from": [
       ""
@@ -42,8 +42,8 @@ exports[`test/lib/commands/query.js > TAP > include-workspace-root > should retu
     },
     "pkgid": "project@",
     "location": "",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-include-workspace-root/prefix",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-include-workspace-root/prefix",
+    "path": "{CWD}/prefix",
+    "realpath": "{CWD}/prefix",
     "resolved": null,
     "from": [],
     "to": [
@@ -63,8 +63,8 @@ exports[`test/lib/commands/query.js > TAP > include-workspace-root > should retu
     "_id": "c@1.0.0",
     "pkgid": "c@1.0.0",
     "location": "c",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-include-workspace-root/prefix/c",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-include-workspace-root/prefix/c",
+    "path": "{CWD}/prefix/c",
+    "realpath": "{CWD}/prefix/c",
     "resolved": null,
     "from": [],
     "to": [],
@@ -85,8 +85,8 @@ exports[`test/lib/commands/query.js > TAP > linked node > should return linked n
     "_id": "a@1.0.0",
     "pkgid": "a@1.0.0",
     "location": "a",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-linked-node/prefix/a",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-linked-node/prefix/a",
+    "path": "{CWD}/prefix/a",
+    "realpath": "{CWD}/prefix/a",
     "resolved": null,
     "from": [],
     "to": [],
@@ -133,8 +133,8 @@ exports[`test/lib/commands/query.js > TAP > package-lock-only > with package loc
     },
     "pkgid": "project@",
     "location": "",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-package-lock-only-with-package-lock/prefix",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-package-lock-only-with-package-lock/prefix",
+    "path": "{CWD}/prefix",
+    "realpath": "{CWD}/prefix",
     "resolved": null,
     "from": [],
     "to": [
@@ -157,8 +157,8 @@ exports[`test/lib/commands/query.js > TAP > package-lock-only > with package loc
     "_id": "a@1.2.3",
     "pkgid": "a@1.2.3",
     "location": "node_modules/a",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-package-lock-only-with-package-lock/prefix/node_modules/a",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-package-lock-only-with-package-lock/prefix/node_modules/a",
+    "path": "{CWD}/prefix/node_modules/a",
+    "realpath": "{CWD}/prefix/node_modules/a",
     "from": [
       ""
     ],
@@ -182,8 +182,8 @@ exports[`test/lib/commands/query.js > TAP > recursive tree > should return every
     },
     "pkgid": "project@",
     "location": "",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix",
+    "path": "{CWD}/prefix",
+    "realpath": "{CWD}/prefix",
     "resolved": null,
     "from": [],
     "to": [
@@ -199,8 +199,8 @@ exports[`test/lib/commands/query.js > TAP > recursive tree > should return every
   {
     "pkgid": "a@",
     "location": "node_modules/a",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix/node_modules/a",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix/node_modules/a",
+    "path": "{CWD}/prefix/node_modules/a",
+    "realpath": "{CWD}/prefix/node_modules/a",
     "resolved": null,
     "from": [
       ""
@@ -215,8 +215,8 @@ exports[`test/lib/commands/query.js > TAP > recursive tree > should return every
   {
     "pkgid": "b@",
     "location": "node_modules/b",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix/node_modules/b",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-recursive-tree/prefix/node_modules/b",
+    "path": "{CWD}/prefix/node_modules/b",
+    "realpath": "{CWD}/prefix/node_modules/b",
     "resolved": null,
     "from": [
       ""
@@ -244,8 +244,8 @@ exports[`test/lib/commands/query.js > TAP > simple query > should return root ob
     },
     "pkgid": "project@",
     "location": "",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix",
+    "path": "{CWD}/prefix",
+    "realpath": "{CWD}/prefix",
     "resolved": null,
     "from": [],
     "to": [
@@ -261,8 +261,8 @@ exports[`test/lib/commands/query.js > TAP > simple query > should return root ob
   {
     "pkgid": "a@",
     "location": "node_modules/a",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix/node_modules/a",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix/node_modules/a",
+    "path": "{CWD}/prefix/node_modules/a",
+    "realpath": "{CWD}/prefix/node_modules/a",
     "resolved": null,
     "from": [
       ""
@@ -277,8 +277,8 @@ exports[`test/lib/commands/query.js > TAP > simple query > should return root ob
   {
     "pkgid": "b@",
     "location": "node_modules/b",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix/node_modules/b",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-simple-query/prefix/node_modules/b",
+    "path": "{CWD}/prefix/node_modules/b",
+    "realpath": "{CWD}/prefix/node_modules/b",
     "resolved": null,
     "from": [
       ""
@@ -301,8 +301,8 @@ exports[`test/lib/commands/query.js > TAP > workspace query > should return work
     "_id": "c@1.0.0",
     "pkgid": "c@1.0.0",
     "location": "c",
-    "path": "{CWD}/.tap/fixtures/test-lib-commands-query.js-workspace-query/prefix/c",
-    "realpath": "{CWD}/.tap/fixtures/test-lib-commands-query.js-workspace-query/prefix/c",
+    "path": "{CWD}/prefix/c",
+    "realpath": "{CWD}/prefix/c",
     "resolved": null,
     "from": [],
     "to": [],
